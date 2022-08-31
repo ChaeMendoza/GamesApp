@@ -1,0 +1,47 @@
+.title {
+    color: #61dafb;
+    font-weight: bold;
+}
+
+.img {
+    border-radius: 20px;
+    margin-right: 70px;
+}
+
+.color {
+    color: #c2c1c1;
+}
+
+.span {
+    text-align: left;
+    color: #61dafb;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 300px;
+    height: 30px;
+    background: #23252c;
+    border: 2px solid #61dafb;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.48);
+    color: black;
+}
+
+.content {
+    width: 800px;
+    margin-left: 40px;
+}
+
+.genre {
+    color: #61dafb;
+}

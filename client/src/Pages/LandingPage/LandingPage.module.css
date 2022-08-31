@@ -1,0 +1,76 @@
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #fff;
+    text-shadow:
+            0 0 5px rgba(0,178,255,1),
+            0 0 10px rgba(0,178,255,1),
+            0 0 20px rgba(0,178,255,1),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 180px rgba(38,104,127,1);
+}
+
+.control {
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+    transform: rotate(45deg);
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.izquierda {
+    color: white;
+    margin-left: 40px;
+}
+
+.derecha {
+    margin-right: 30px;
+}
+
+.btn {
+    width: 500px;
+    height: 39px;
+    background: #282c34;
+    color: #fff;
+    text-shadow:
+            0 0 5px rgba(0,178,255,1),
+            0 0 10px rgba(0,178,255,1),
+            0 0 20px rgba(0,178,255,1),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 180px rgba(38,104,127,1);
+    cursor: pointer;
+    border: 4px solid #61dafb;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: #262626;
+    text-shadow:
+            0 0 5px rgba(0,178,255,1),
+            0 0 10px rgba(0,178,255,1),
+            0 0 20px rgba(0,178,255,1),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 180px rgba(38,104,127,1);
+}

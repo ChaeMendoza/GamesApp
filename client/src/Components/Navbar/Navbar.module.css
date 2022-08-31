@@ -1,0 +1,66 @@
+.container {
+    border: 3px solid #61dafb;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #fff;
+    text-shadow:
+            0 0 5px rgba(0,178,255,1),
+            0 0 10px rgba(0,178,255,1),
+            0 0 20px rgba(0,178,255,1),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 180px rgba(38,104,127,1);
+}
+
+.control {
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+    transform: rotate(45deg);
+}
+
+.padre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background: #282c34;
+    color: white;
+    margin: 3px 3px 3px 100px;
+    height: 40px;
+    cursor: pointer;
+    border: 3px solid #61dafb;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.59);
+    color: #23252c;
+}
+
+.ordenar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    color: white;
+}
+
+.ordenarOpcion {
+    display: flex;
+    flex-direction: column;
+}

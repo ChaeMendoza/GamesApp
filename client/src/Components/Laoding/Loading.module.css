@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.title {
+    color: #61dafb;
+    font-weight: bold;
+}
