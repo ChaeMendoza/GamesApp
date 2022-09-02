@@ -1,9 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import Control from "../../Images/control.png";
 import styles from "./Navbar.module.css";
 import Search from "../Search/Search";
+//import { useSelector } from "react-redux";
+
+
+
 
 function Navbar() {
+    /*const [, setOrden] = useState("");
+    const genres = useSelector((state) => state.genres);
+
+    // Filter by genre
+    function handleFilterGenres(e) {
+        console.log("a");
+        dispatch(filterVideogamesByGenre(e.target.value));
+        console.log(e.target.value);
+    }
+
+    // Filter A-Z
+    function handleSort(e) {
+        e.preventDefault();
+        dispatch(orderByName(e.target.value));
+        setCurrentPage(1);
+        setOrden(`Ordenado ${e.target.value}`);
+    }
+
+    // Filter Created or Api
+    function handleFilterCreated(e) {
+        dispatch(filterCreated(e.target.value));
+    }*/
+
     return (
         <div className={styles.container}>
             <h2 className={styles.title}>

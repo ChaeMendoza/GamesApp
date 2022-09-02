@@ -40,7 +40,7 @@
 
 .btn {
     background: #282c34;
-    color: white;
+    color: rgb(209, 208, 208);
     margin: 3px 3px 3px 100px;
     height: 40px;
     cursor: pointer;
@@ -57,7 +57,7 @@
     justify-content: space-between;
     align-items: center;
     width: 550px;
-    color: white;
+    color: rgb(209, 208, 208);
 }
 
 .ordenarOpcion {
