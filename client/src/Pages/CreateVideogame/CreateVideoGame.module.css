@@ -1,0 +1,53 @@
+.title {
+    color: #61dafb;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+.form {
+    width: 400px;
+    padding: 15px;
+    border: 3px solid #61dafb;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label {
+    text-align: left;
+    color: #61dafb;
+    margin-top: 5px;
+}
+
+.input {
+    background: #23252c;
+    border: 2px solid #61dafb;
+    height: 20px;
+    color: white;
+}
+.btn {
+    background: #23252c;
+    border: 2px solid #61dafb;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #c2c1c1;
+    color: black;
+}
+
+.checks {
+    display: flex;
+    flex-wrap: wrap;
+}
