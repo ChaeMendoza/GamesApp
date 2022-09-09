@@ -4,7 +4,6 @@ import {
     SEARCH_VIDEOGAMES,
     FILTER_BY_GENRE,
     FILTER_CREATED,
-    POST_VIDEOGAME,
     ORDER_BY_NAME,
     GET_DETAILS
 } from "./actions";
@@ -60,11 +59,11 @@ export default function rootReducer(state = initialState, action) {
                     action.payload === "All" ? state.allVideogames2 : createdFilter,
             };
 
-        /*case POST_VIDEOGAME:
+        case "POST_VIDEOGAME":
             return {
                 ...state,
             };
-        */
+        
         case GET_GENRES:
             return {
                 ...state,

@@ -103,7 +103,7 @@ export default function VideogameCreate() {
             <div className={styles.content}>
                 <form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
                     <div className={styles.campo}>
-                        <label className={styles.label}>Name:</label>
+                        <label className={styles.label}>Name: *</label>
                         <input
                             className={styles.input}
                             type="text"
@@ -114,7 +114,7 @@ export default function VideogameCreate() {
                         {errors.name && <p className="error">{errors.name}</p>}
                     </div>
                     <div className={styles.campo}>
-                        <label className={styles.label}>Description:</label>
+                        <label className={styles.label}>Description: *</label>
                         <input
                             className={styles.input}
                             type="text"
